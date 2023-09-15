@@ -155,27 +155,28 @@ header{
     letter-spacing: -0.3px;
 }
 
-.section-cards h2 span{
+.type1 {
+    background: linear-gradient(96deg, #FE8A8A 1.72%, #A4CEFF 74.97%);
+}
+
+.type2 {
+    background: linear-gradient(277deg, #6FBAFF 59.22%, #FFD88B 93.66%);
+}
+
+.type3 {
+    background: linear-gradient(99deg, #6D7CCD 19.76%, rgba(82, 136, 133, 0.22) 52.69%);
+}
+
+.type4 {
+    background: var(--fandom-k-gra-blue-to-pink, linear-gradient(271deg, #FE578F -9.84%, #68E8F9 107.18%));
+}
+
+.gradient {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.section-cards#section1 h2 span{
-    background: linear-gradient(96deg, #FE8A8A 1.72%, #A4CEFF 74.97%);
-}
-
-.section-cards#section2 h2 span{
-    background: linear-gradient(277deg, #6FBAFF 59.22%, #FFD88B 93.66%);
-}
-
-.section-cards#section3 h2 span{
-    background: linear-gradient(99deg, #6D7CCD 19.76%, rgba(82, 136, 133, 0.22) 52.69%);
-}
-
-.section-cards#section4 h2 span{
-    background: var(--fandom-k-gra-blue-to-pink, linear-gradient(271deg, #FE578F -9.84%, #68E8F9 107.18%));
-}
 
 .section-cards .content p{
     color: #6B6B6B;
